@@ -1,0 +1,22 @@
+﻿<Project Sdk="MSBuild.SDK.SystemWeb/4.0.50">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- Must Add -->
+        <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
+        <PackageReference Include="Microsoft.AspNet.Web.Optimization" Version="1.1.3" />
+        <!-- Dependent Package Overrides (= Better) -->
+        <PackageReference Include="Antlr" Version="3.5.0.2" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+        <PackageReference Include="WebGrease" Version="1.6.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="Microsoft.CSharp" />
+        <Reference Include="System.Web" />
+    </ItemGroup>
+
+</Project>
