@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace SdkStyleAspNetMvc5.Controllers
+namespace AspNetMvc.Controllers
 {
     public class HomeController : Controller
     {

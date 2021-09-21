@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace SdkStyleAspNetMvc5
+namespace AspNetMvc
 {
     public class BundleConfig
     {

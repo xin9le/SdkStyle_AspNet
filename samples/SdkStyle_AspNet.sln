@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdkStyleAspNetMvc5", "SdkStyleAspNetMvc5\SdkStyleAspNetMvc5.csproj", "{3BB1BBE7-E598-4AC0-9B15-9789A363F698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetMvc", "AspNetMvc\AspNetMvc.csproj", "{414B3D0B-7D96-44E0-A08E-6831140B0DDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3BB1BBE7-E598-4AC0-9B15-9789A363F698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BB1BBE7-E598-4AC0-9B15-9789A363F698}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BB1BBE7-E598-4AC0-9B15-9789A363F698}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BB1BBE7-E598-4AC0-9B15-9789A363F698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414B3D0B-7D96-44E0-A08E-6831140B0DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414B3D0B-7D96-44E0-A08E-6831140B0DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414B3D0B-7D96-44E0-A08E-6831140B0DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414B3D0B-7D96-44E0-A08E-6831140B0DDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
