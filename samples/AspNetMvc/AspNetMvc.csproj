@@ -5,7 +5,7 @@
     </PropertyGroup>
 
     <!-- for dotnet publish -->
-   <PropertyGroup>
+    <PropertyGroup>
         <MvcBuildViews>false</MvcBuildViews>
         <VSToolsPath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     </PropertyGroup>
