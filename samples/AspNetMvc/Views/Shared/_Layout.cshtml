@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - マイ ASP.NET アプリケーション</title>
-    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Assets/Styles/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
@@ -24,6 +24,7 @@
                     <li>@Html.ActionLink("ホーム", "Index", "Home")</li>
                     <li>@Html.ActionLink("詳細", "About", "Home")</li>
                     <li>@Html.ActionLink("問い合わせ", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Sample Area", "Index", "User", new { area = "Sample" }, null)</li>
                 </ul>
             </div>
         </div>
